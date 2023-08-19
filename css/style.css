@@ -1,0 +1,186 @@
+/* Reset some default styles */
+
+h1,
+h2{
+  margin: 0px;
+  padding: 0;
+  border: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Basic styling */
+body {
+  background-color: #ffdd8c;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 100px;
+  color: #700808;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-left: -50px;
+  color: #700808;
+  text-align: center;
+}
+
+/* Form styling */
+label {
+  display: inline-block;
+  width: 90px;
+  margin-top: 30px;
+  margin-left: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 22px;
+  color: #700808;
+
+}
+
+input[type="text"] {
+  width: 60%;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  
+}
+input[type="number"] {
+  width: 9%;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  
+}
+#buscar {
+  margin-left: 10px;
+  width: 70px;
+  background-color: #6e9167;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 8px 11px;
+  font-size: 16px;
+}
+
+button {
+  width: 120px;
+  margin-top: 35px;
+  margin-left: 250px;
+  padding: 10px 20px;
+  background-color: #6e9167;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+.excluir{
+  width: 70px;
+  margin-top: 0px;
+  margin-left: 0;
+  background-color: #ff0000;
+  font-size: 16px;
+  padding: 5px 13px;
+  
+}
+
+/* Button styling */
+#visualizar {
+  background-color: #6e9167;
+}
+
+#editar {
+  background-color: #6e9167;
+}
+
+.cadastro-content {
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+}
+
+.cadastro {
+  background-color: #ff8030;
+  border-radius: 1.0rem;
+  width: 40rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #6e9167;
+}
+table {
+ margin-top: -22.2px;
+ width: 100%;
+} 
+.quadro {
+  background: #ffdd8c;
+  width: 96%;
+  height: 41vh;
+  margin-left: 13px;
+  border-radius: 15px;
+
+}
+#SelPessoa {
+  padding-left: auto;
+  padding-right: auto;
+  width: 100%;
+  height: 5vh;
+}
+#SelPessoa th td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#SelPessoa tr:nth-child(odd) {
+  background-color: #ffdd8c;
+}
+#SelPessoa tr:nth-child(even) {
+  background-color: white;
+}
+th td {
+  padding: 5px 10px;
+}
+td {
+  text-align: center;
+}
+th {
+  padding: 5px;
+  text-align: center;
+  background-color: #cc4e00;
+  color: #ffff;
+}
+.radius01 {
+  border-radius: 15px 0px 0px 0px;
+}
+.radius02 {
+  border-radius: 0px 15px 0px 0px;
+}
+tr {
+  font-size: 20px;
+}
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  label {
+    width: 100%;
+    display: block;
+  }
+
+  button {
+    width: 100%;
+  }
+}
