@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="javascript/main.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>CADASTRO</title>
+
+</head>
+
+<body>
+  <h1>CADASTRO DE PESSOA FÍSCA</h1><br>
+  <div class="cadastro-content">
+
+    <div class="cadastro">
+      <h2>CADASTRO</h2><br>
+      <div>
+        <label for="cpf">CPF:</label>
+        <input type="text" placeholder="Digite seu CPF" name="cpf" id="cpf">
+      </div>
+      <div>
+        <label for="nome">NOME:</label>
+        <input type="text" name="nome" id="nome">
+
+      </div>
+      <div>
+        <label for="idade">Idade: </label>
+        <input type="number" name="idade" id="idade">
+      </div>
+
+      <button type="cadastrar" id="cadastrar">Cadastrar</button>
+    </div>
+
+    <div class="cadastro">
+      <h2>PESSOAS FÍSCAS</h2><br>
+      <div class="quadro">
+        <table id="SelPessoa">
+          <thead>
+            <tr>
+              <th class="radius01">Nº</th>
+              <th>CPF</th>
+              <th>Nome</th>
+              <th>Idade</th>
+              <th class="radius02">Excluir</th>
+            </tr>
+          </thead>
+          <br>
+          <tbody>
+          </tbody>
+        </table>
+        <br>
+        <button type="button" id="visualizar">Visualizar</button>
+      </div>
+    </div>
+
+    <div class="cadastro">
+      <h2> ATUALIZAR</h2><br>
+      <div>
+        <label for="cpf">CPF:</label>
+        <input type="text" placeholder="Digite seu CPF" name="atualizarCpf" id="atualizarCpf">
+        <button type="buscar" id="buscar">Buscar</button>
+      </div>
+      <div>
+        <label for="nome">NOME:</label>
+        <input type="text" name="atualizarNome" id="atualizarNome">
+      </div>
+      <div>
+        <label for="cargo">Idade: </label>
+        <input type="number" name="atualizarIdade" id="atualizarIdade">
+      </div>
+
+      <button type="editar" id="editar">Atualizar</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
