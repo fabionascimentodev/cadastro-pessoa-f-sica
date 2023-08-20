@@ -22,12 +22,12 @@ Nosso site é uma plataforma online que tem objetivo de cadastrar pessoas físic
 
 ## 🛠Tecnologias Utilizadas
 
-1. [VScode] (https://code.visualstudio.com/)
-2. [Git] (https://git-scm.com/)
-3. [GitHub] (https://github.com/)
-4. [Html5] (https://html5-editor.net/)
-5. [Javascript] (https://playcode.io/javascript-compiler)
-6. [CSS] (https://www.w3schools.com/css/css_editor.asp)
+1. VScode
+2. Git
+3. GitHub
+4. Html5
+5. Javascript
+6. CSS
 
 ## 🐼Pessoas Autoras
 
