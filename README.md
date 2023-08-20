@@ -31,7 +31,7 @@ Nosso site é uma plataforma online que tem objetivo de cadastrar pessoas físic
 
 ## 🐼Pessoas Autoras
 
-[Fabio Nascimento](assets/fabioNovo.jpeg)<br>
+Fabio Nascimento
 
-[Linkedin] (https://www.linkedin.com/in/fabio-nascimento-031a2549/)<br>
+Linkedin (https://www.linkedin.com/in/fabio-nascimento-031a2549/)
 
