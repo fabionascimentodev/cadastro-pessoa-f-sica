@@ -74,7 +74,7 @@ input[type="number"] {
 button {
   width: 120px;
   margin-top: 35px;
-  margin-left: 260px;
+  margin-left: 250px;
   padding: 10px 20px;
   background-color: #6e9167;
   color: #fff;
@@ -94,10 +94,15 @@ button {
   padding: 5px 13px;
 
 }
+#cadastrar {
+  margin-top: 35px;
+  margin-left: 240px;
+  background-color: #6e9167;
+}
 
 #visualizar {
-  margin-top: 230px;
-  margin-left: 250px;
+  margin-top: 210px;
+  margin-left: 230px;
   background-color: #6e9167;
 }
 
@@ -117,8 +122,8 @@ button {
 .cadastro {
   background-color: #ff8030;
   border-radius: 1.0rem;
-  width: 40rem;
-  height: 30rem;
+  width: 37.3rem;
+  height: 27.3rem;
   display: flex;
   flex-direction: column;
   border: 4px solid #6e9167;
@@ -132,7 +137,7 @@ table {
 .quadro {
   background: #ffdd8c;
   width: 96%;
-  height: 41vh;
+  height: 37vh;
   margin-left: 13px;
   border-radius: 15px;
 
